@@ -1,0 +1,21 @@
+import React from "react";
+import { Layout } from "antd";
+import HeaderTodo from "./../../component/Header/Header";
+import ContentTodo from "../../component/Content/ContentTodo";
+const { Header, Content } = Layout;
+function ProductPage(props) {
+  return (
+    <div>
+      <Layout>
+        <Header>
+          <HeaderTodo />
+        </Header>
+        <Content style={{ padding: "0 50px", height: "100vh" }}>
+          <ContentTodo />
+        </Content>
+      </Layout>
+    </div>
+  );
+}
+
+export default ProductPage;

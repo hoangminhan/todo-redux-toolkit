@@ -1,0 +1,25 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "SamSung",
+      "type": "Smart Phone",
+      "price": 13000,
+      "status": true
+    },
+    {
+      "name": "SamSung1",
+      "type": "tv1",
+      "price": 13000,
+      "status": "false",
+      "id": 2
+    },
+    {
+      "name": "Hoàng Minh An1",
+      "type": "sadasd1",
+      "price": "12345",
+      "status": false,
+      "id": 5
+    }
+  ]
+}
